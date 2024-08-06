@@ -1,0 +1,34 @@
+/* .blog-container{
+    height: 300px;
+} */
+.knowledge{
+    height: 200px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 44px;
+}
+.blog-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+    margin:50px 100px;
+}
+.blog-image{
+    height: 200px;
+    width: 350px;
+}
+.blog-card{
+    width: 350px;
+}
+.blog-card h3{
+    font-size: 21px;
+    margin: 10px 0px;
+}
+.view-details{
+    text-decoration: none;
+    font-size: 19px;
+}

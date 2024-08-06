@@ -1,0 +1,86 @@
+.concerns-section {
+    padding: 30px 50px;
+    /* background-color: #f1f3f5; */
+    
+  }
+  
+  /* .concerns-carousel {
+    display: flex;
+     flex-direction: row; 
+    flex-wrap: wrap; 
+    gap: 10px; 
+  } */
+  
+  /* .concern-card {
+    flex: 1 1 200px;
+    text-align: center;
+  } */
+  
+  .concern-image {
+    /* max-width: 100%; */
+    width: 300px;
+    height: 220px;
+    /* height: auto; */
+    /* border-radius: 10px; */
+  }
+  
+  .concern-name {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  /* src/components/Concerns.css */
+.slick-prev, .slick-next {
+  background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background for better visibility */
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  z-index: 1;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black; /* Arrow icon color */
+  font-size: 24px; /* Adjust size */
+}
+
+.slick-prev {
+  left: -20px; /* Adjust positioning */
+}
+
+.slick-next {
+  right: -20px; /* Adjust positioning */
+}
+
+/* Additional styles to adjust the carousel arrows and responsiveness */
+.slick-slider {
+  position: relative;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-dots {
+  bottom: -25px;
+}
+
+.concerns-section {
+  padding: 20px;
+}
+
+.concern-card {
+  text-align: center;
+  padding: 10px;
+}
+
+.concern-image {
+  width: 100%;
+  height: auto;
+}
+
+.concern-name {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+  

@@ -1,0 +1,36 @@
+.signup-container{
+    height: 400px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.submit-section .submit{
+    width: 200px;
+    font-size: 23px;
+}
+form{
+    width: 80%;
+}
+.login-link{
+    font-size: 22px;
+}
+@media (max-width: 680px){
+    .signup-container{
+        width: 300px;
+    }
+    form{
+        width: 300px;
+    }
+    .login-link{
+        font-size: 15px;
+        width: 50%;
+    }
+    .form-container{
+        justify-content: center;
+    }
+    .submit-section .submit{
+        font-size: 18px;
+        width: 50%;
+    }
+}

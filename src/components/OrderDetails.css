@@ -1,0 +1,17 @@
+.order-details-container {
+    width: 100%;
+  }
+  
+  .order-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .order-container {
+    width: 45%; /* Adjust as needed */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+ 

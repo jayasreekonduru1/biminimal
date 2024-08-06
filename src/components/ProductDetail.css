@@ -1,0 +1,135 @@
+/* src/components/ProductDetails.css */
+
+.single-product-details {
+    /* max-width: 800px; */
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+  }
+  
+  .single-product-image {
+   /* width: auto;  */
+    width: 450px;
+    height: 650px;
+  }
+  /* .details-container{
+    width: 50%;
+  } */
+  .single-product-name {
+    font-size: 3rem;
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  
+  .single-product-rating {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+  }
+  .single-product-short-description{
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .single-product-long-description{
+    font-size: 20px;
+  }
+  
+  /* .filled-star {
+    color: gold;
+  } */
+  
+  /* .empty-star {
+    color: lightgray;
+  } */
+  
+  .product-short-description,
+  .product-long-description,
+  .product-usage p {
+    margin-top: 10px;
+  }
+  
+  .product-ingredients ul,
+  .product-concerns ul {
+    list-style-position: inside;
+    /* list-style-type:"◍"; */
+    padding-left: 0;
+    /* padding-right: 10px; */
+    
+  }
+  /* .single-product-price{
+    border: 1px solid #000;
+    border-top:none;
+    
+  } */
+  .single-product-price h3{
+    margin-bottom: -15px;
+    background-color: #fff;
+    /* border: 1px solid #000; */
+    width: 70px;
+    position: relative;
+    margin-left: 20px;
+    padding-left: 5px;
+    font-size: 18px;
+    
+  }
+  .single-product-price p{
+    border: 1px solid #a8a8a8;
+    height: 68px;
+    display: flex;
+    align-items: end;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: 600;
+  }
+ 
+  /* .ingredient{
+    padding-left: 23px;
+  } */
+  .single-cartButton {
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 20px 0px;
+    width: 200px;
+  }
+  
+  @media (max-width: 824px) {
+    .single-product-details {
+      /* max-width: 800px; */
+      margin: 50px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 50px;
+    }
+    .single-product-image {
+      /* width: auto;  */
+       width: 350px;
+       height: 450px;
+     }
+     .details-container{
+      width: 500px;
+     }
+  }
+  @media (max-width: 450px) {
+    .single-product-details{
+      margin: 20px 10px;
+    }
+    .single-product-image {
+      /* width: auto;  */
+       width: 300px;
+       height: 450px;
+     }
+     .details-container{
+      width: 300px;
+     }
+  }

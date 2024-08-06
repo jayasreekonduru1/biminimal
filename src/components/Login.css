@@ -1,0 +1,36 @@
+.login-container{
+    width: 600px;
+    height: 400px;
+}
+.login-container h1{
+    font-weight: 600;
+}
+.signup-link{
+    font-size: 20px;
+}
+form{
+    width: 80%;
+}
+.submit-section{
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.submit-section .signup-link{
+    margin: 20px 0px;
+}
+@media (max-width: 680px){
+    .login-container{
+        width: 300px;
+    }
+    form{
+        width: 300px;
+    }
+    .signup-link{
+        font-size: 16px;
+    }
+    .form-container{
+        justify-content: center;
+    }
+}
